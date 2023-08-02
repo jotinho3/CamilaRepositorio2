@@ -1,0 +1,100 @@
+
+
+
+.LayoutHeader {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+    background-color: rgb(36, 36, 36);
+    padding: 0.5rem 0 0.5rem 0;
+
+
+    .BellIconDiv {
+        border-right: 2px grey solid;
+        padding: 1rem;
+
+
+
+        img {
+        width: 2rem;
+        filter: invert(100%);
+        }
+    }
+
+
+    p {
+        font-size: 1.2rem;
+        color: #FFF;
+    }
+
+
+    .userIcon {
+        width: 4rem;
+    }
+
+    
+
+}
+
+
+.layoutMainContainer {
+    display: flex;
+
+
+
+    .layoutSidebar {
+        margin-top: -3.5rem;
+        width: 16%;
+        height: 53.96rem;
+        background-color: #f0f0f0;
+        -webkit-box-shadow: 10px 10px 19px 0px rgba(0,0,0,0.26);
+        -moz-box-shadow: 10px 10px 19px 0px rgba(0,0,0,0.26);
+box-shadow: 10px 10px 19px 0px rgba(0,0,0,0.26);
+
+        h2 {
+            text-align: center;
+            margin-top: 5rem;
+            margin-bottom: 5rem;
+            color: #cf4343;
+        }
+
+
+
+        .layoutSidebarNavlinksNav {
+
+
+
+            a {
+                width: 100%;
+                display: block;
+                font-weight: 700;
+                color: #969696;
+                font-size: 1.2rem;
+                padding: 1rem 0;
+                cursor: pointer;
+                text-decoration: none;
+                
+                p {
+                    margin-left: 15px;
+                }
+               
+
+                
+
+
+                &[class="active"] {
+                    background-color: #ffcece;
+                    border-right: 3px solid #cf4343; ;
+                    color: #cf4343;
+                }
+            }
+
+        }
+
+
+    }
+
+}
+
